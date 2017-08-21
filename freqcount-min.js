@@ -1,0 +1,1 @@
+function countWords(o){var r={};return(o=o.toLowerCase().replace(/\b\w{1,2}\b/g,"").match(/[^_\W]+/g)).forEach(function(o){r[o]?r[o]++:r[o]=1}),r}
